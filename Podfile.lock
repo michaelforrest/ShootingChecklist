@@ -1,0 +1,24 @@
+PODS:
+  - AEXML (4.3.3)
+  - PathKit (0.9.2)
+  - Stencil (0.13.1):
+    - PathKit (~> 0.9.0)
+
+DEPENDENCIES:
+  - AEXML
+  - Stencil (~> 0.13)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - PathKit
+    - Stencil
+
+SPEC CHECKSUMS:
+  AEXML: 601f41fcaa7bda7605cad153b0f43db9ec006c0f
+  PathKit: 273f59a38e3218eb95abd9f6a61730a8bcfd2f06
+  Stencil: b5128a0a43ece9225db5cbd94d6569fe6fba609b
+
+PODFILE CHECKSUM: 5259214ed7bab57ee8117d26fd419533c156e6bc
+
+COCOAPODS: 1.5.3

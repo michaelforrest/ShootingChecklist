@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="master.css">
+
+    {% for location in locations %}
+
+        <h2 class="{%if location.isVirtual%}virtual{%endif%}">{{ location.title }} ({{ location.scenes.count }})</h2>
+        <div>
+            {% for scene in location.scenes %}
+            <div class="check-box"></div>
+            <h3 class="{%if scene.isVirtual%}virtual{%endif%}">Scene {{ scene.number }} - page {{scene.page}}</h3>
+            
+            <!--<h3>{{ scene.title }} ({{scene.paragraphs.count}} paragraph(s))</h3>-->
+                {% for paragraph in scene.paragraphs %}
+                    <p>{{ paragraph.text }}</p>
+
+                {% endfor %}
+            {% endfor %}
+        </div>
+
+    {% endfor %}
+

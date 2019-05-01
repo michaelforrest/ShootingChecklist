@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E80F339EADEA25EB31F6089 /* Pods_Shooting_Checklist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86A56959FA1B8A4653D3F5D /* Pods_Shooting_Checklist.framework */; };
+		AC12FA2F1E9681F8006E961F /* Shooting Checklist.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACDF49671E8B08E600B47F2D /* Shooting Checklist.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC788AAF21B7FFB200FEB0E1 /* markers-template.fcpxml in Resources */ = {isa = PBXBuildFile; fileRef = AC788AAE21B7FFB200FEB0E1 /* markers-template.fcpxml */; };
+		ACDF496B1E8B08E600B47F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF496A1E8B08E600B47F2D /* AppDelegate.swift */; };
+		ACDF496D1E8B08E600B47F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF496C1E8B08E600B47F2D /* ViewController.swift */; };
+		ACDF496F1E8B08E600B47F2D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF496E1E8B08E600B47F2D /* Document.swift */; };
+		ACDF49711E8B08E600B47F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDF49701E8B08E600B47F2D /* Assets.xcassets */; };
+		ACDF49741E8B08E600B47F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDF49721E8B08E600B47F2D /* Main.storyboard */; };
+		ACDF49821E8B18F800B47F2D /* locations.html in Resources */ = {isa = PBXBuildFile; fileRef = ACDF49811E8B18F800B47F2D /* locations.html */; };
+		ACDF49841E8B275000B47F2D /* master.css in Resources */ = {isa = PBXBuildFile; fileRef = ACDF49831E8B275000B47F2D /* master.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC12FA2E1E9681E9006E961F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Applications;
+			dstSubfolderSpec = 0;
+			files = (
+				AC12FA2F1E9681F8006E961F /* Shooting Checklist.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FEB44976E1237F3AD08F911 /* Pods_ShootingChecklist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShootingChecklist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423C88F0BFBE4F48F85E8770 /* Pods-Shooting Checklist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting Checklist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist.release.xcconfig"; sourceTree = "<group>"; };
+		4B546AABC901C9A0CF836764 /* Pods-ShootingChecklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShootingChecklist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShootingChecklist/Pods-ShootingChecklist.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB993BEDE7B905E609ECD7A /* Pods-Shooting Checklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting Checklist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist.debug.xcconfig"; sourceTree = "<group>"; };
+		AC788AAC21B7FF7900FEB0E1 /* VanillaMarkers.fcpxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VanillaMarkers.fcpxml; sourceTree = "<group>"; };
+		AC788AAE21B7FFB200FEB0E1 /* markers-template.fcpxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "markers-template.fcpxml"; sourceTree = "<group>"; };
+		ACC81C2321B80F7D000D6FB1 /* EuroMechanical.fdx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EuroMechanical.fdx; sourceTree = "<group>"; };
+		ACDF49671E8B08E600B47F2D /* Shooting Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting Checklist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDF496A1E8B08E600B47F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDF496C1E8B08E600B47F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDF496E1E8B08E600B47F2D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		ACDF49701E8B08E600B47F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDF49731E8B08E600B47F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDF49751E8B08E600B47F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDF49811E8B18F800B47F2D /* locations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = locations.html; sourceTree = "<group>"; };
+		ACDF49831E8B275000B47F2D /* master.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = master.css; sourceTree = "<group>"; };
+		ACFAFA6921F0E74C005E354A /* Blank State Insta.fcpxml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Blank State Insta.fcpxml"; sourceTree = "<group>"; };
+		ACFAFA6A21F0E7F2005E354A /* EuroMechanical Action List.fcpxml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "EuroMechanical Action List.fcpxml"; sourceTree = "<group>"; };
+		ACFAFA6B21F0EEEA005E354A /* EuroViz-fixed.fcpxml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "EuroViz-fixed.fcpxml"; sourceTree = "<group>"; };
+		ACFAFA6C21F0EEF1005E354A /* EuroViz.fcpxml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EuroViz.fcpxml; sourceTree = "<group>"; };
+		B43FC652FBB9B1D7916FCC1F /* Pods-ShootingChecklist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShootingChecklist.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShootingChecklist/Pods-ShootingChecklist.release.xcconfig"; sourceTree = "<group>"; };
+		E86A56959FA1B8A4653D3F5D /* Pods_Shooting_Checklist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shooting_Checklist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDF49641E8B08E600B47F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E80F339EADEA25EB31F6089 /* Pods_Shooting_Checklist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEF2BA73557B50C70F63244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B546AABC901C9A0CF836764 /* Pods-ShootingChecklist.debug.xcconfig */,
+				B43FC652FBB9B1D7916FCC1F /* Pods-ShootingChecklist.release.xcconfig */,
+				9CB993BEDE7B905E609ECD7A /* Pods-Shooting Checklist.debug.xcconfig */,
+				423C88F0BFBE4F48F85E8770 /* Pods-Shooting Checklist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D7F6D3D757BF7EB77C37532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB44976E1237F3AD08F911 /* Pods_ShootingChecklist.framework */,
+				E86A56959FA1B8A4653D3F5D /* Pods_Shooting_Checklist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC788AAB21B7FF6A00FEB0E1 /* FCPX */ = {
+			isa = PBXGroup;
+			children = (
+				AC788AAE21B7FFB200FEB0E1 /* markers-template.fcpxml */,
+			);
+			path = FCPX;
+			sourceTree = "<group>";
+		};
+		ACC81C2421B80FA6000D6FB1 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81C2321B80F7D000D6FB1 /* EuroMechanical.fdx */,
+				AC788AAC21B7FF7900FEB0E1 /* VanillaMarkers.fcpxml */,
+				ACFAFA6921F0E74C005E354A /* Blank State Insta.fcpxml */,
+				ACFAFA6A21F0E7F2005E354A /* EuroMechanical Action List.fcpxml */,
+				ACFAFA6B21F0EEEA005E354A /* EuroViz-fixed.fcpxml */,
+				ACFAFA6C21F0EEF1005E354A /* EuroViz.fcpxml */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		ACDF495E1E8B08E600B47F2D = {
+			isa = PBXGroup;
+			children = (
+				ACDF49691E8B08E600B47F2D /* ShootingChecklist */,
+				ACDF49681E8B08E600B47F2D /* Products */,
+				1EEF2BA73557B50C70F63244 /* Pods */,
+				2D7F6D3D757BF7EB77C37532 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDF49681E8B08E600B47F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDF49671E8B08E600B47F2D /* Shooting Checklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDF49691E8B08E600B47F2D /* ShootingChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81C2421B80FA6000D6FB1 /* Reference */,
+				AC788AAB21B7FF6A00FEB0E1 /* FCPX */,
+				ACDF49811E8B18F800B47F2D /* locations.html */,
+				ACDF496A1E8B08E600B47F2D /* AppDelegate.swift */,
+				ACDF496C1E8B08E600B47F2D /* ViewController.swift */,
+				ACDF496E1E8B08E600B47F2D /* Document.swift */,
+				ACDF49701E8B08E600B47F2D /* Assets.xcassets */,
+				ACDF49721E8B08E600B47F2D /* Main.storyboard */,
+				ACDF49751E8B08E600B47F2D /* Info.plist */,
+				ACDF49831E8B275000B47F2D /* master.css */,
+			);
+			path = ShootingChecklist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDF49661E8B08E600B47F2D /* Shooting Checklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDF49781E8B08E600B47F2D /* Build configuration list for PBXNativeTarget "Shooting Checklist" */;
+			buildPhases = (
+				1FEEF5FDC1D2938860B69471 /* [CP] Check Pods Manifest.lock */,
+				ACDF49631E8B08E600B47F2D /* Sources */,
+				ACDF49641E8B08E600B47F2D /* Frameworks */,
+				ACDF49651E8B08E600B47F2D /* Resources */,
+				102B5CDAC41DFA4B4E28D03A /* [CP] Embed Pods Frameworks */,
+				AC12FA2E1E9681E9006E961F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shooting Checklist";
+			productName = ShootingChecklist;
+			productReference = ACDF49671E8B08E600B47F2D /* Shooting Checklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDF495F1E8B08E600B47F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GoodToHear;
+				TargetAttributes = {
+					ACDF49661E8B08E600B47F2D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TNRLJ4WU59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACDF49621E8B08E600B47F2D /* Build configuration list for PBXProject "ShootingChecklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = ACDF495E1E8B08E600B47F2D;
+			productRefGroup = ACDF49681E8B08E600B47F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDF49661E8B08E600B47F2D /* Shooting Checklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDF49651E8B08E600B47F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF49821E8B18F800B47F2D /* locations.html in Resources */,
+				ACDF49841E8B275000B47F2D /* master.css in Resources */,
+				ACDF49711E8B08E600B47F2D /* Assets.xcassets in Resources */,
+				AC788AAF21B7FFB200FEB0E1 /* markers-template.fcpxml in Resources */,
+				ACDF49741E8B08E600B47F2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		102B5CDAC41DFA4B4E28D03A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/PathKit/PathKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Stencil/Stencil.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PathKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stencil.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FEEF5FDC1D2938860B69471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shooting Checklist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDF49631E8B08E600B47F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDF496D1E8B08E600B47F2D /* ViewController.swift in Sources */,
+				ACDF496B1E8B08E600B47F2D /* AppDelegate.swift in Sources */,
+				ACDF496F1E8B08E600B47F2D /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDF49721E8B08E600B47F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDF49731E8B08E600B47F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDF49761E8B08E600B47F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDF49771E8B08E600B47F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		ACDF49791E8B08E600B47F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB993BEDE7B905E609ECD7A /* Pods-Shooting Checklist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = ShootingChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodtohear.ShootingChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACDF497A1E8B08E600B47F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423C88F0BFBE4F48F85E8770 /* Pods-Shooting Checklist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TNRLJ4WU59;
+				INFOPLIST_FILE = ShootingChecklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodtohear.ShootingChecklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDF49621E8B08E600B47F2D /* Build configuration list for PBXProject "ShootingChecklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDF49761E8B08E600B47F2D /* Debug */,
+				ACDF49771E8B08E600B47F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDF49781E8B08E600B47F2D /* Build configuration list for PBXNativeTarget "Shooting Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDF49791E8B08E600B47F2D /* Debug */,
+				ACDF497A1E8B08E600B47F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDF495F1E8B08E600B47F2D /* Project object */;
+}

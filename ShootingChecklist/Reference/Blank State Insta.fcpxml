@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" frameDuration="1001/24000s" width="1080" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="Crypto Taxes Draft 1" uid="C3A400932BF244BDC39E5AA85D6F40E4" src="file:///Users/mf/Movies/Crypto%20Taxes.fcpbundle/15-12-2018/Original%20Media/Crypto%20Taxes%20Draft%201.mov" start="0s" duration="1680679/24000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va1QDAAAAAAQQMAAAAAW36NshoKdOIoVPSIhgRC+z6ZuVXmOHpjT2BKxAF9psUAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1mAAAGAAAAAQEAAE1vdmllcwAAFgAAAAEBAABDcnlwdG8gVGF4ZXMuZmNwYnVuZGxlAAAKAAAAAQEAADE1LTEyLTIwMTgAAA4AAAABAQAAT3JpZ2luYWwgTWVkaWEAABgAAAABAQAAQ3J5cHRvIFRheGVzIERyYWZ0IDEubW92HAAAAAEGAAAQAAAAIAAAACwAAAA8AAAAXAAAAHAAAACIAAAACAAAAAQDAABq1QkAAAAAAAgAAAAEAwAAk9QKAAAAAAAIAAAABAMAAJv+TAAAAAAACAAAAAQDAADQsKwBAAAAAAgAAAAEAwAA37CsAQAAAAAIAAAABAMAAMHLrgEAAAAACAAAAAQDAADcXvIBAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAAAgAAAAABAAAQcD3qsXP/9wYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAADgAePoAAAACAAAAAAEAABBwIkAB0jHcSQAAAABAQAANUI3RkRFNTYtRUQ4OC00QTFDLUFFMDktMEUxOTNCNUJFRjI2GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAAAAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwBAAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAAANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAAMCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAAAAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+        </asset>
+        <format id="r3" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    </resources>
+    <library location="file:///Users/mf/Movies/Crypto%20Taxes.fcpbundle/">
+        <event name="15-12-2018" uid="83C5EDD7-03BF-4AB1-946F-C965D500EE70">
+            <project name="Blank State Insta" uid="0B13F584-55C0-4908-B6D4-94C222AB9CA3" modDate="2019-01-16 16:16:34 +0000">
+                <sequence duration="1680679/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip name="Crypto Taxes Draft 1" offset="0s" ref="r2" duration="1680679/24000s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <caption name="One problem with tax money" lane="1" offset="3003/24000s" duration="43043/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts1">One problem with tax money</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="is that once you’ve handed it over" lane="1" offset="49049/24000s" duration="35035/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts2">is that once you’ve handed it over</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="it’s just swallowed up into one big number." lane="1" offset="43043/12000s" duration="52052/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts3">it’s just swallowed up into one big number.</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="You never know exactly where your money went" lane="1" offset="7007/1200s" duration="63063/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts4">You never know exactly where your money went</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="With cryptocurrency we could make a system " lane="1" offset="13013/1500s" duration="35035/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts5">With cryptocurrency we could make a system </text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="to let you see where every penny" lane="1" offset="243243/24000s" duration="45045/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts6">to let you see where every penny</text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="of your personal contribution ends up" lane="1" offset="18018/1500s" duration="55055/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts7">of your personal contribution ends up</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Imagine a world where you could see where your taxes went" lane="1" offset="87087/6000s" duration="95095/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts8">Imagine a world where you could see where your taxes went</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Did you help maintain a fire engine" lane="1" offset="447447/24000s" duration="42042/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts9">Did you help maintain a fire engine</text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="recycling machines" lane="1" offset="491491/24000s" duration="47047/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts10">recycling machines</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="or did you fix a pot hole in the road?" lane="1" offset="543543/24000s" duration="55055/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts11">or did you fix a pot hole in the road?</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="or did you pay for healthcare" lane="1" offset="121121/4800s" duration="48048/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts12">or did you pay for healthcare</text-style>
+                                </text>
+                                <text-style-def id="ts12">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Whose life did you save today?" lane="1" offset="41041/1500s" duration="47047/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts13">Whose life did you save today?</text-style>
+                                </text>
+                                <text-style-def id="ts13">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Or did you pay for weapons to be used far away?" lane="1" offset="709709/24000s" duration="67067/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts14">Or did you pay for weapons to be used far away?</text-style>
+                                </text>
+                                <text-style-def id="ts14">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Maybe you paid for the queen" lane="1" offset="393393/12000s" duration="39039/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts15">Maybe you paid for the queen</text-style>
+                                </text>
+                                <text-style-def id="ts15">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="or a motorcade" lane="1" offset="33033/960s" duration="39039/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts16">or a motorcade</text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="or just a park bench" lane="1" offset="869869/24000s" duration="48048/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts17">or just a park bench</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="How would people vote differently" lane="1" offset="923923/24000s" duration="43043/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts18">How would people vote differently</text-style>
+                                </text>
+                                <text-style-def id="ts18">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name=" if they knew how their contributions were being used? " lane="1" offset="483483/12000s" duration="41041/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts19"> if they knew how their contributions were being used? </text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Would they start to demand a lot more control" lane="1" offset="101101/2400s" duration="46046/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts20">Would they start to demand a lot more control</text-style>
+                                </text>
+                                <text-style-def id="ts20">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="over where their money went?" lane="1" offset="66066/1500s" duration="46046/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts21">over where their money went?</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="We're coming up with ideas for a new type of country" lane="1" offset="553553/12000s" duration="71071/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts22">We're coming up with ideas for a new type of country</text-style>
+                                </text>
+                                <text-style-def id="ts22">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="A place where things work properly" lane="1" offset="1180179/24000s" duration="46046/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts23">A place where things work properly</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="and nobody gets left behind" lane="1" offset="49049/960s" duration="46046/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts24">and nobody gets left behind</text-style>
+                                </text>
+                                <text-style-def id="ts24">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Some people think that's impossible" lane="1" offset="1274273/24000s" duration="37037/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts25">Some people think that's impossible</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="To them we say" lane="1" offset="131131/2400s" duration="27027/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts26">To them we say</text-style>
+                                </text>
+                                <text-style-def id="ts26">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Let's go" lane="1" offset="701701/12000s" duration="18018/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts27">Let's go</text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="we're gonna start up a" lane="1" offset="1424423/24000s" duration="21021/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts28">we're gonna start up a</text-style>
+                                </text>
+                                <text-style-def id="ts28">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="blank state" lane="1" offset="361361/6000s" duration="15015/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts29">blank state</text-style>
+                                </text>
+                                <text-style-def id="ts29">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Make a new country" lane="1" offset="1460459/24000s" duration="22022/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts30">Make a new country</text-style>
+                                </text>
+                                <text-style-def id="ts30">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="start with a " lane="1" offset="1482481/24000s" duration="18018/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts31">start with a </text-style>
+                                </text>
+                                <text-style-def id="ts31">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="blank slate" lane="1" offset="1500499/24000s" duration="18018/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts32">blank slate</text-style>
+                                </text>
+                                <text-style-def id="ts32">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Throwing out the rule book" lane="1" offset="1518517/24000s" duration="19019/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts33">Throwing out the rule book</text-style>
+                                </text>
+                                <text-style-def id="ts33">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="Gonna do it better" lane="1" offset="96096/1500s" duration="25025/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts34">Gonna do it better</text-style>
+                                </text>
+                                <text-style-def id="ts34">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="and" lane="1" offset="1562561/24000s" duration="8008/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts35">and</text-style>
+                                </text>
+                                <text-style-def id="ts35">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="we're not" lane="1" offset="1570569/24000s" duration="11011/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts36">we're not</text-style>
+                                </text>
+                                <text-style-def id="ts36">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="gonna make" lane="1" offset="79079/1200s" duration="11011/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts37">gonna make</text-style>
+                                </text>
+                                <text-style-def id="ts37">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <caption name="the same mistakes" lane="1" offset="1592591/24000s" duration="27027/24000s" start="3600s" role="SRT?captionFormat=SRT.en">
+                                <text>
+                                    <text-style ref="ts38">the same mistakes</text-style>
+                                </text>
+                                <text-style-def id="ts38">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

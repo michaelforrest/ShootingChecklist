@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" frameDuration="100001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    </resources>
+    <library location="file:///Users/mf/Movies/YouTube/Eurorack%20and%20Arduino.fcpbundle/">
+        <event name="Actions" uid="CFD70A35-CC2B-49A6-A85B-37F90E916EDF">
+            <project name="EuroMechanical Action List" uid="DCBCE981-EFCA-4738-8B06-76FAA2461F0B" modDate="2019-01-17 16:42:03 +0000">
+                <sequence duration="2200022/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <gap name="Gap" offset="0s" duration="100001/24000s">
+                            <caption name="First caption" lane="1" offset="0s" duration="100001/24000s" start="86300863/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts1">First caption</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="0. Show the finished product" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="100001/24000s" duration="100001/24000s">
+                            <caption name="Second caption" lane="1" offset="0s" duration="100001/24000s" start="86300863/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts2">Second caption</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="1. Show GD" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="200002/24000s" duration="100001/24000s">
+                            <caption name="Third Caption" lane="1" offset="0s" duration="100001/24000s" start="86300863/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts3">Third Caption</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="2. Title sequence" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="300003/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="3. Graph showing the stepping process" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="400004/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="4. The right motor" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="500005/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="5. " completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="600006/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="6. The driver" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="700007/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="7. Highlight inputs" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="800008/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="8. Highlight voltage" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="900009/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="9. Show the sensor" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1000010/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="10. Show the jack inputs" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1100011/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="11. Show the code" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1200012/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="12. Show the website" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1300013/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="13. Show interrupt" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1400014/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="14. Show the loop" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1500015/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="15. Show the layout being drawn" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1600016/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="16. Show the little bracket" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1700017/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="17. Show the drilling" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1800018/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="18. Show the motor + driver" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1900019/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="19. Show screwing it all together" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2000020/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="20. Little jam" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2100021/24000s" duration="100001/24000s">
+                            <marker start="0s" duration="1/48000s" value="21. " completed="0"/>
+                        </gap>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

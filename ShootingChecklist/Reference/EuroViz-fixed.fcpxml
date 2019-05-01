@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    </resources>
+    <library location="file:///Users/mf/Movies/EuroViz.fcpbundle/">
+        <event name="Actions" uid="60A83EEB-95EE-4D7B-AC38-2CFFDFE2EC55">
+            <project name="EuroViz Action List" uid="E06F55E5-87DD-4DC2-891B-E038E871D342" modDate="2019-01-17 17:11:37 +0000">
+                <sequence duration="2902801/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <gap name="Gap" offset="0s" duration="100001/24000s">
+                            <caption name="I wanted to make live visuals controlled by my modular synth in a way that " lane="1" offset="0s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts1">I wanted to make live visuals controlled by my modular synth in a way that </text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="0. Show mushroom visualisation projected behind me as I play modular rig" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="100001/24000s" duration="100001/24000s">
+                            <caption name="One, I could connect up to different modular synth triggers" lane="1" offset="0s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts2">One, I could connect up to different modular synth triggers</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="1. Graphic: 1 [check]" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="200002/24000s" duration="100001/24000s">
+                            <caption name="Two I could see what was going on" lane="1" offset="198/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts3">Two I could see what was going on</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="2. Graphic 2 [check]" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="300003/24000s" duration="102003/24000s">
+                            <caption name="Three, I could program lots of visuals using a relatively simple framework" lane="1" offset="297/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts4">Three, I could program lots of visuals using a relatively simple framework</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="3. Graphic 3 [check]" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="402006/24000s" duration="100001/24000s">
+                            <caption name="It turned out easier than I was expecting!" lane="1" offset="396/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts5">It turned out easier than I was expecting!</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="4. Show the board" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="502007/24000s" duration="100001/24000s">
+                            <caption name="I’m Michael Forrest and this is Leaving the Laptop, a series exploring ways to play live electronic music without using a laptop. " lane="1" offset="495/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts6">I’m Michael Forrest and this is Leaving the Laptop, a series exploring ways to play live electronic music without using a laptop. </text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="5. Title" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="602008/24000s" duration="100001/24000s">
+                            <caption name="Here I’ve connected the kick trigger to the Arduino." lane="1" offset="594/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts7">Here I’ve connected the kick trigger to the Arduino.</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="6. Show the kick connected to the Arduino" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="702009/24000s" duration="100001/24000s">
+                            <caption name="The module is connected to an opto-coupler which is connected to pin 2." lane="1" offset="693/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts8">The module is connected to an opto-coupler which is connected to pin 2.</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="7. X-ray optocoupler" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="802010/24000s" duration="100001/24000s">
+                            <caption name="I got this Bluetooth module - make sure it’s bluetooth v4 so it works with an iPhone. " lane="1" offset="792/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts9">I got this Bluetooth module - make sure it’s bluetooth v4 so it works with an iPhone. </text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="8. Show the bluetooth module" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="902011/24000s" duration="100001/24000s">
+                            <caption name="You connect power and then TX to RX and vice versa. A phone can connect to this and receive signals from the Arduino." lane="1" offset="891/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts10">You connect power and then TX to RX and vice versa. A phone can connect to this and receive signals from the Arduino.</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="9. Show the bluetooth module’s connections" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1002012/24000s" duration="100001/24000s">
+                            <caption name="We use an interrupt to receive trigger events. This is because they might be too quick if you try to read them in the loop" lane="2" offset="990/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts11">We use an interrupt to receive trigger events. This is because they might be too quick if you try to read them in the loop</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="10. Show the code" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1102013/24000s" duration="100001/24000s">
+                            <caption name="I’m showing you this project on a Nano which only has two interrupts, but my final version will be on" lane="1" offset="88/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts12">I’m showing you this project on a Nano which only has two interrupts, but my final version will be on</text-style>
+                                </text>
+                                <text-style-def id="ts12">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="11. Show the table of interrupts" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1202014/24000s" duration="100001/24000s">
+                            <caption name="this mega so I can have up to six" lane="1" offset="187/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts13">this mega so I can have up to six</text-style>
+                                </text>
+                                <text-style-def id="ts13">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="12. Show the Mega" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1302015/24000s" duration="100001/24000s">
+                            <caption name="Every time a trigger pin goes high, we send a message over serial that will be received by the iPhone." lane="1" offset="286/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts14">Every time a trigger pin goes high, we send a message over serial that will be received by the iPhone.</text-style>
+                                </text>
+                                <text-style-def id="ts14">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="13. Code again" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1402016/24000s" duration="100001/24000s">
+                            <caption name="Watch out, because the arduino uses the same serial connections to receive code changes, so you always have to disconnect the bluetooth module when you upload new code." lane="1" offset="385/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts15">Watch out, because the arduino uses the same serial connections to receive code changes, so you always have to disconnect the bluetooth module when you upload new code.</text-style>
+                                </text>
+                                <text-style-def id="ts15">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="14. Show unplugging the thing every time" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1502017/24000s" duration="100001/24000s">
+                            <caption name="This is Xcode. It’s free if you have a " lane="1" offset="484/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts16">This is Xcode. It’s free if you have a </text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="15. Show Xcode" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1602018/24000s" duration="100001/24000s">
+                            <caption name="Mac and it’s not too hard to get started programming." lane="1" offset="583/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts17">Mac and it’s not too hard to get started programming.</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="16. Title and picture of mac “VERY EXPENSIVE”" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1702019/24000s" duration="100001/24000s">
+                            <caption name="I’m using SpriteKit which is Apple’s 2D graphics framework for games. " lane="1" offset="682/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts18">I’m using SpriteKit which is Apple’s 2D graphics framework for games. </text-style>
+                                </text>
+                                <text-style-def id="ts18">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="17. Spritekit homepage" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1802020/24000s" duration="100001/24000s">
+                            <caption name="You connect to Bluetooth like this. I just assume if I find a serial peripheral with this name it’s the one I want." lane="1" offset="781/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts19">You connect to Bluetooth like this. I just assume if I find a serial peripheral with this name it’s the one I want.</text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="18. Show the main view controller with the bluetooth client" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="1902021/24000s" duration="100001/24000s">
+                            <caption name="I’ll add a mushroom emoji and connect it up to the view controller" lane="1" offset="880/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts20">I’ll add a mushroom emoji and connect it up to the view controller</text-style>
+                                </text>
+                                <text-style-def id="ts20">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="19. Show the spritekit editor" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2002022/24000s" duration="100001/24000s">
+                            <caption name="When we get a message “trigger_1” we’ll kick off an animation" lane="2" offset="979/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts21">When we get a message “trigger_1” we’ll kick off an animation</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="20. Show code for creating actions" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2102023/24000s" duration="100001/24000s">
+                            <caption name="Now every time a kick trigger is received, it triggers an animation" lane="1" offset="77/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts22">Now every time a kick trigger is received, it triggers an animation</text-style>
+                                </text>
+                                <text-style-def id="ts22">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="21. Plugging the module into the board" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2202024/24000s" duration="100001/24000s">
+                            <caption name="So, in summary, the Eurorack connects to the optocoupler, the optocoupler connects to the input pin, when the pin is triggered it sends a serial message to the bluetooth module, the bluetooth module sends the message to the iphone, the bluetooth client receives the message and triggers an action in spritekit" lane="1" offset="176/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts23">So, in summary, the Eurorack connects to the optocoupler, the optocoupler connects to the input pin, when the pin is triggered it sends a serial message to the bluetooth module, the bluetooth module sends the message to the iphone, the bluetooth client receives the message and triggers an action in spritekit</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="22. Diagram showing the overall control flow" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2302025/24000s" duration="100001/24000s">
+                            <caption name="You can now add more triggers to send different messages that can trigger different animations. " lane="1" offset="275/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts24">You can now add more triggers to send different messages that can trigger different animations. </text-style>
+                                </text>
+                                <text-style-def id="ts24">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="23. Now unfolding everything" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2402026/24000s" duration="100001/24000s">
+                            <caption name="In my final version I also connected some continuous signals to the Arduino’s analogue inputs." lane="1" offset="374/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts25">In my final version I also connected some continuous signals to the Arduino’s analogue inputs.</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="24. Show analogue control" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2502027/24000s" duration="100001/24000s">
+                            <caption name="These didn’t have to use interrupts but it does means we’re sending a lot more data over bluetooth. " lane="1" offset="473/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts26">These didn’t have to use interrupts but it does means we’re sending a lot more data over bluetooth. </text-style>
+                                </text>
+                                <text-style-def id="ts26">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="25. Show the loop method" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2602028/24000s" duration="100001/24000s">
+                            <caption name="But it does mean we can have more flowing animations" lane="1" offset="572/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts27">But it does mean we can have more flowing animations</text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="26. How a flower growing or whatever" completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2702029/24000s" duration="100001/24000s">
+                            <caption lane="1" offset="671/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom"/>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="27. " completed="0"/>
+                        </gap>
+                        <gap name="Gap" offset="2802030/24000s" duration="100001/24000s">
+                            <caption name="I’ll put links to any code or materials in the notes here and feel free to ask questions in the comments below. I’m trying to do a video every month so be sure to subscribe so you don’t miss the next one! Thanks for watching and I’ll see you next time." lane="1" offset="770/24000s" duration="100001/24000s" role="iTT?captionFormat=ITT.en">
+                                <text placement="bottom">
+                                    <text-style ref="ts28">I’ll put links to any code or materials in the notes here and feel free to ask questions in the comments below. I’m trying to do a video every month so be sure to subscribe so you don’t miss the next one! Thanks for watching and I’ll see you next time.</text-style>
+                                </text>
+                                <text-style-def id="ts28">
+                                    <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="0.999996 1 1 1" backgroundColor="0 0 0 1"/>
+                                </text-style-def>
+                            </caption>
+                            <marker start="0s" duration="1/48000s" value="28. Play some music" completed="0"/>
+                        </gap>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
