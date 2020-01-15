@@ -37,6 +37,9 @@
 		423C88F0BFBE4F48F85E8770 /* Pods-Shooting Checklist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting Checklist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist.release.xcconfig"; sourceTree = "<group>"; };
 		4B546AABC901C9A0CF836764 /* Pods-ShootingChecklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShootingChecklist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShootingChecklist/Pods-ShootingChecklist.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB993BEDE7B905E609ECD7A /* Pods-Shooting Checklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting Checklist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting Checklist/Pods-Shooting Checklist.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5833EE23CF5B03004F97EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC5833F023CF5C49004F97EB /* script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = script.png; sourceTree = "<group>"; };
+		AC5833F123CF5D22004F97EB /* timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline.png; sourceTree = "<group>"; };
 		AC788AAC21B7FF7900FEB0E1 /* VanillaMarkers.fcpxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VanillaMarkers.fcpxml; sourceTree = "<group>"; };
 		AC788AAE21B7FFB200FEB0E1 /* markers-template.fcpxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "markers-template.fcpxml"; sourceTree = "<group>"; };
 		ACC81C2321B80F7D000D6FB1 /* EuroMechanical.fdx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EuroMechanical.fdx; sourceTree = "<group>"; };
@@ -89,6 +92,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AC5833EF23CF5C3A004F97EB /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				AC5833F023CF5C49004F97EB /* script.png */,
+				AC5833F123CF5D22004F97EB /* timeline.png */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
 		AC788AAB21B7FF6A00FEB0E1 /* FCPX */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +125,8 @@
 		ACDF495E1E8B08E600B47F2D = {
 			isa = PBXGroup;
 			children = (
+				AC5833EF23CF5C3A004F97EB /* docs */,
+				AC5833EE23CF5B03004F97EB /* README.md */,
 				ACDF49691E8B08E600B47F2D /* ShootingChecklist */,
 				ACDF49681E8B08E600B47F2D /* Products */,
 				1EEF2BA73557B50C70F63244 /* Pods */,
