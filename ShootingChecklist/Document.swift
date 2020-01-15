@@ -29,14 +29,20 @@ struct Scene {
     var isVirtual = false
 }
 
+struct Sentence {
+    let text: String
+    let offset: String
+    let index: Int
+}
+
 struct FCPXAction {
     let text: String
-    let offset: Int
+//    let offset: Int
     let index: Int
     let caption: String
-    func sentences()-> [String]{
-        return caption.components(separatedBy: ".")
-    }
+    let sentences: [Sentence]
+    let duration: Int
+    
 }
 
 class Document: NSDocument {
@@ -83,15 +89,31 @@ class Document: NSDocument {
     
     @IBAction func handleExportToFCPX(sender: NSObject){
         self.title = self.fileURL?.deletingPathExtension().lastPathComponent ?? "Untitled"
+        let sentenceDuration = 3 // seconds
         
-        let segmentDuration = 3 // seconds
+        let fcpActions = self.actions.enumerated().map{ item -> FCPXAction in
+            let (offset, element) = item
+            let sentences = element.caption.components(separatedBy: CharacterSet(charactersIn: ".;!"))
+                .enumerated()
+                .map{(index, text) in Sentence(  text: text.xmlEscaped, offset: "\(index * sentenceDuration)s", index: index)}
+            return FCPXAction(
+                text: element.text.xmlEscaped,
+//                offset: offset * segmentDuration * sentences.count,
+                index: offset,
+                caption: element.caption.xmlEscaped,
+                sentences: sentences,
+                duration: sentences.count * sentenceDuration
+            )
+        }
+        
         let context:[String: Any] = [
             "name": "\(self.title) Action List",
             "date": "2018-12-05 12:38:10 +0000",
             "eventUUID": UUID().uuidString,
             "uuid": UUID().uuidString,
-            "duration": self.actions.count * segmentDuration,
-            "actions": self.actions.enumerated().map{ FCPXAction(text: $0.element.text, offset: $0.offset * segmentDuration, index: $0.offset, caption: $0.element.caption )}
+            "duration": fcpActions.reduce(0, {acc, action in acc + action.sentences.count}) * sentenceDuration,
+            "actions": fcpActions,
+            "sentenceDuration": "\(sentenceDuration * 240000 - 3)/240000s"
         ]
         let rendered = try? render(name: "markers-template.fcpxml", context: context);
         let panel = NSSavePanel()
@@ -127,7 +149,7 @@ class Document: NSDocument {
                 for paragraph in paragraphs {
                     let type = paragraph.attributes["Type"] ?? ""
                     let textElements = paragraph["Text"].all
-                    let text = textElements?.map({ $0.string }).joined() ?? ""
+                    let text = textElements?.map({ $0.string }).joined(separator: " ") ?? ""
                     let number = paragraph.attributes["Number"] ?? ""
                     let page = paragraph["SceneProperties"].attributes["Page"] ?? ""
                     if type == "Scene Heading" {

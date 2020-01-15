@@ -3,23 +3,27 @@
 
 <fcpxml version="1.8">
     <resources>
-        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="100001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
     </resources>
     <library>
-        <event name="Actions" uid="{{eventUUID}}">
+        <event name="Media" uid="{{eventUUID}}">
             <project name="{{ name }}" uid="{{ uuid }}" modDate="{{ date}}">
                 <sequence duration="{{ duration }}s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
                     <spine>
                          {% for action in actions %}
-                         <gap name="Gap" duration="100001/24000s" start="0s">
-                             <caption name="{{ action.caption }}" lane="1" offset="0s" duration="100001/24000s" start="0s" role="iTT?captionFormat=ITT.en">
+                         <gap name="Gap" duration="{{action.duration}}s" start="0s">
+                             {% for sentence in action.sentences %}
+                             <caption name="{{ sentence.text }}" lane="1" offset="{{sentence.offset}}" duration="{{sentenceDuration}}"
+                                 start="0s"
+                                 role="iTT?captionFormat=ITT.en">
                                  <text placement="bottom">
-                                     <text-style ref="ts{{action.index}}">{{action.caption}}</text-style>
+                                     <text-style ref="ts{{action.index}}{{sentence.index}}">{{sentence.text}}</text-style>
                                  </text>
-                                 <text-style-def id="ts{{action.index}}">
+                                 <text-style-def id="ts{{action.index}}{{sentence.index}}">
                                      <text-style font=".SF NS Text" fontSize="13" fontFace="Regular" fontColor="1 1 1 1" backgroundColor="0 0 0 1"/>
                                  </text-style-def>
                              </caption>
+                             {% endfor %}
                              <marker start="0s" duration="1/48000s" value="{{action.index}}. {{ action.text }}" completed="0"/>
                         </gap>
                         {% endfor %}
